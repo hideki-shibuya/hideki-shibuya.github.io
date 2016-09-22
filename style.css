@@ -1,0 +1,30 @@
+header {
+  background-image: url("./img/DSC00401.JPG");
+}
+
+.navbar {
+    border-radius: 0;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 1px 1px 0px #000;
+    color: #fff;
+}
+
+h2 {
+    text-align: center;
+    background-color: #360;
+    color: #fff;
+}
+
+footer {
+    background-color: #360;
+    margin-top: 20px;
+    padding: 10px;
+    color: #fff;
+}
+
+footer p {
+    text-align: center;
+}

@@ -4,15 +4,84 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="keyword" content="hideki-shibuya,ポートフォリオ,portfolio">
-        <meta name="description" content="webエンジニアに成るべく、プログラミングを学習する渋谷秀樹のポートフォリオサイトです。">
+        <meta name="description" content="プロのwebエンジニアに成る為、プログラミングを集中的に学習する渋谷秀樹のポートフォリオサイトです。">
         <meta name="author" content="hideki shibuya">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Hideki Shibuya's Portfolio</title>
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     </head>
     <body>
-        <h1>Hello, GOD!</h1>
+        <header>
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapsed" data-target="navbar1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="./">
+                            <img alt="logo" src="img/circle3kashiwa.png">
+                        </a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbar1">
+                        <ul class="nav navbar-nav">
+                            <li><a href="./">Hideki shibuyA</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="container">
+                <img src="img/syuryunokami.jpg" class="img-circle center-block" alt="プロフィール画像">
+                <h1>渋谷 秀樹</h1>
+            </div>
+        </header>
+        <section>
+            <div class="container-fluid">
+                <h2>Profile</h2>
+                <div class="well">
+                    <p>1977年生まれ  岐阜県美濃地方出身、現在も在住中</p>
+                    <p>ITに触れたのは、2009年にホームページをテンプレートから自分自分好みに改変し、ゲームの攻略サイトを作り上げたのが初め。<br>
+                    後にWordpressやSEOを駆使してアフィリエイトを開始しましたが、性に合わないと感じてやめました。<br>
+                    2016年8月にたまたま見たニュース記事で、プログラミングがオンラインで学習できることを知り、9月よりTechacademyにてWebアプリケーションコースを受講開始</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container-fluid">
+                <h2>Work</h2>
+                <div class="row">
+                    <div class="col-md-3">
+                        <img src="./img/messageboard.jpg" class="img-responsive">
+                        <h3>メッセージボード</h3>
+                        <p>デザインはBootstrapを使用し、アプリ・コントローラ・モデルの作成をして、投稿機能・バリデーション・編集・削除機能を実装しました。<br>Herokuで動作させています。</p>
+                        <a href="#"><button class="btn btn-success">メッセージボードはこちら</button></a>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="./img/messageboard.jpg" class="img-responsive">
+                        <h3>Twitterクローン</h3>
+                        <p>Twitterに似たサービスを作成しました。新規登録機能、ログイン機能、投稿やフォロー機能を備えています。</p>
+                        <a href="#"><button class="btn btn-success">Twitterクローンはこちら</button></a>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="./img/messageboard.jpg" class="img-responsive">
+                        <h3>モノリスト</h3>
+                        <p>楽天APIを利用したモノリストです。Railsでアプリを作成し、Want、Have機能を実装してHerokuへデプロイしました。</p>
+                        <a href="#"><button class="btn btn-success">モノリストはこちら</button></a>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="./img/messageboard.jpg" class="img-responsive">
+                        <h3>オリジナルサービス</h3>
+                        <p>現在作成中</p>
+                        <a href="#"><button class="btn btn-success">オリジナルサービスはこちら</button></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <p>&copy; 2015 Hideki Shibuya.</p>
+        </footer>
     </body>
 </html>
