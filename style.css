@@ -1,5 +1,6 @@
 header {
-  background-image: url("./img/DSC00401.JPG");
+  background-image: url("./img/0154_damask_s.jpg");
+  background-repeat: repeat-x;
 }
 
 .navbar {
@@ -9,12 +10,12 @@ header {
 h1 {
     text-align: center;
     text-shadow: 1px 1px 0px #000;
-    color: #fff;
+    color: #609;
 }
 
 h2 {
     text-align: center;
-    background-color: #360;
+    background-color: #90f;
     color: #fff;
 }
 
@@ -23,7 +24,7 @@ h2 {
 }
 
 footer {
-    background-color: #360;
+    background-color: #90f;
     margin-top: 20px;
     padding: 10px;
     color: #fff;
